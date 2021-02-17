@@ -46,7 +46,7 @@
   </b-row>
   <br>
   <h4><b-icon icon="cart4" animation="spin"  ></b-icon> รายการสินค้าที่สั่งใว้ <b-icon icon="cart4" animation="spin"  ></b-icon></h4>
-    <h5>ราคาของทั้งหมด = {{click7}}</h5>
+    <h5>ราคาของทั้งหมด = {{click7}} $</h5>
     <b-col>
     <b-button size="sm" variant="danger" @click="click111" >เอาออกรถเข็น </b-button> <b-button size="sm" variant="danger" @click="click111" >ตกลง</b-button></b-col>
    </div>
