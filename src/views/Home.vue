@@ -8,19 +8,19 @@
   
 <b-col>
     <p>Artoria Pendragon <code>24$</code>:</p>
-  <b-img src="https://appmedia.jp/wp-content/uploads/2016/06/c5f3771c96a6c0ed7070e5f63bd0214d.jpg" ></b-img>
+  <b-img src="https://appmedia.jp/wp-content/uploads/2016/06/c5f3771c96a6c0ed7070e5f63bd0214d.jpg" width="170" ></b-img>
    <b-col ><b-button size="sm" variant="danger" @click="click11" >ลงรถเข็น <b-badge variant="light">{{click1}}</b-badge></b-button>
   
    </b-col>
 </b-col>
 <b-col>
   <p>Artoria Pendragon (Alter) <code>15$</code>:</p>
-  <b-img src="https://www.wicurio.com/grand_order/index.php?plugin=resizeimage&page=%E3%82%A8%E3%82%A4%E3%83%97%E3%83%AA%E3%83%AB%E3%83%95%E3%83%BC%E3%83%AB%EF%BC%88H28%EF%BC%89&w=163&h=280&image=0034128.jpg" ></b-img>
+  <b-img src="https://www.wicurio.com/grand_order/index.php?plugin=resizeimage&page=%E3%82%A8%E3%82%A4%E3%83%97%E3%83%AA%E3%83%AB%E3%83%95%E3%83%BC%E3%83%AB%EF%BC%88H28%EF%BC%89&w=163&h=280&image=0034128.jpg" width="170"></b-img>
  <b-col ><b-button size="sm" variant="danger" @click="click22" >ลงรถเข็น <b-badge variant="light">{{click2}}</b-badge></b-button>
    </b-col></b-col>
 <b-col>
   <p>Okita Sōji <code>24$</code>:</p>
-  <b-img src="https://i.pinimg.com/236x/34/f5/2f/34f52fdbfa15318e91201feda7a2b6ab.jpg" ></b-img>
+  <b-img src="https://i.pinimg.com/236x/34/f5/2f/34f52fdbfa15318e91201feda7a2b6ab.jpg" width="170" ></b-img>
  <b-col ><b-button size="sm" variant="danger" @click="click33" >ลงรถเข็น <b-badge variant="light">{{click3}}</b-badge></b-button>
    </b-col>
    </b-col>
@@ -28,18 +28,18 @@
    <b-row>
   <b-col>
     <p>Astolfo (Saber) <code>24$</code>:</p>
-  <b-img src="https://appmedia.jp/wp-content/uploads/2020/03/b4a5b2165a9271cac91761300c74376e.jpg" ></b-img>
+  <b-img src="https://appmedia.jp/wp-content/uploads/2020/03/b4a5b2165a9271cac91761300c74376e.jpg" width="170"></b-img>
    <b-col ><b-button size="sm" variant="danger" @click="click44" >ลงรถเข็น <b-badge variant="light">{{click4}}</b-badge></b-button>
    </b-col>
 </b-col>
 <b-col>
   <p>Astolfo  <code>15$</code>:</p>
-  <b-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpCVVIzqyP3u7peTztanjMTuCC-rEF8jhhYA&usqp=CAU" ></b-img>
+  <b-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpCVVIzqyP3u7peTztanjMTuCC-rEF8jhhYA&usqp=CAU" width="170" ></b-img>
  <b-col ><b-button size="sm" variant="danger" @click="click55" >ลงรถเข็น <b-badge variant="light">{{click5}}</b-badge></b-button>
    </b-col></b-col>
 <b-col>
-  <p>Jeanne d'Arc Alter<code>24$</code>:</p>
-  <b-img src="https://truth.bahamut.com.tw/s01/201710/4176387c6b02298ce7d3713e23c6e43a.PNG" ></b-img>
+  <p>Osakabehime<code>24$</code>:</p>
+  <b-img src="https://www.inside-games.jp/imgs/zoom/793398.jpg"  width="170" ></b-img>
  <b-col ><b-button size="sm" variant="danger" @click="click66" >ลงรถเข็น <b-badge variant="light">{{click6}}</b-badge></b-button>
    </b-col>
   </b-col>
