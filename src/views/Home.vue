@@ -48,7 +48,7 @@
   <h4><b-icon icon="cart4" animation="spin"  ></b-icon> รายการสินค้าที่สั่งใว้ <b-icon icon="cart4" animation="spin"  ></b-icon></h4>
     <h5>ราคาของทั้งหมด = {{click7}} $</h5>
     <b-col>
-    <b-button size="sm" variant="danger" @click="click111" >เอาออกรถเข็นทั้งหมด </b-button> <b-button size="sm" variant="danger" @click="click111" v-on:click="click1111">ตกลง</b-button></b-col>
+    <b-button size="sm" variant="danger" @click="click111" >เอาออกรถเข็นทั้งหมด </b-button> <b-button size="sm" variant="danger"  v-on:click="click1111" @click="click111" >ตกลง</b-button></b-col>
    </div>
   
 
@@ -133,11 +133,19 @@
         this.click7 -=24;}
       },
        click1111: function() {
+         if(this.click7 >0 ){
       alert(
         "ขอบคุณที่ใช้บริการ สินค้าที่คุณลูกค้าสั่งนั้นจะถูกจัดส่งให้ในเร็วๆนี้ "
       );
-    },
+         }
+       else if(this.click7 <= 0 ){
+      alert(
+        "กลุนาเลือกสินค้าก่อน "
+      );
+      }
+      }
     }
+    
     
   }
 
