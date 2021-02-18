@@ -4,7 +4,7 @@
     <b-navbar-nav>  
      
       <b-img src="https://grandorder.wiki/images/8/80/Icon_Coin_Saber.png"  width="50" ></b-img>
-      <b-icon icon="house-door-fill" font-scale="1.7" > </b-icon><b-nav-item to="/" >หน้าร้านค้า</b-nav-item><h3> </h3>
+    <b-nav-item to="/" >หน้าร้านค้า</b-nav-item><h3> </h3>
      
     </b-navbar-nav>
   </b-navbar>
